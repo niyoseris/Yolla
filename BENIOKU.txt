@@ -1,0 +1,16 @@
+Gücünü gmail smtp serverı ve fswebcam'den alan uzaktan webcamden görüntü alma uygulaması.
+
+Maili gonderecek olan ve alacak olan hesapları script dosyasında değiştirin.
+
+fswebcam yüklü olan bir bilgisayarda;
+
+Bilgisayarınıza bağlı bir webcam olduğundan emin olun.
+Ben usb webcam ile denedim, entegrated webcamlerde de sorun olmayacaktır diye tahmin ediyorum.
+
+
+herhangi bir mail adresinden, fotoğraflı mailleri göndermesini istediğiniz hesaba 
+
+/./:yolla/./
+
+mesajını attığınız taktirde 15 saniye içinde mail adresinize webcamin çekmiş olduğu görüntü gelecektir.
+
