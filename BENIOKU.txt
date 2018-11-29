@@ -1,16 +1,15 @@
-Gücünü gmail smtp serverı ve fswebcam'den alan uzaktan webcamden görüntü alma uygulaması.
+Yolla gets its energy from Gmail SMTP Server and fswebcam. Yolla is a very very simple security cam alternative written in Python.
 
-Maili gonderecek olan ve alacak olan hesapları script dosyasında değiştirin.
+Open or create a mail address [from address] and allow 3rd party applications can use it. ( https://support.google.com/a/answer/6260879 )
 
-fswebcam yüklü olan bir bilgisayarda;
+Connect your webcam to your pc or RasPi and run the script.
 
-Bilgisayarınıza bağlı bir webcam olduğundan emin olun.
-Ben usb webcam ile denedim, entegrated webcamlerde de sorun olmayacaktır diye tahmin ediyorum.
+Install fswebcam
 
+It will took a photo and send to your [to address] within about 15 seconds.
 
-herhangi bir mail adresinden, fotoğraflı mailleri göndermesini istediğiniz hesaba 
+It's a base. You may modify it easily with any commands to do anything. Starting servo motors, opening water pumps, controlling lights, getting information about enviroment... anything. 
+
+default command is:
 
 /./:yolla/./
-
-mesajını attığınız taktirde 15 saniye içinde mail adresinize webcamin çekmiş olduğu görüntü gelecektir.
-
